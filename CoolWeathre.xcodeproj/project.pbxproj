@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD41E51D22F811B200454BEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD41E51C22F811B200454BEA /* AppDelegate.m */; };
+		CD41E52022F811B200454BEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD41E51F22F811B200454BEA /* ViewController.m */; };
+		CD41E52322F811B200454BEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD41E52122F811B200454BEA /* Main.storyboard */; };
+		CD41E52622F811B200454BEA /* CoolWeathre.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD41E52422F811B200454BEA /* CoolWeathre.xcdatamodeld */; };
+		CD41E52822F811B400454BEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD41E52722F811B400454BEA /* Assets.xcassets */; };
+		CD41E52B22F811B400454BEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD41E52922F811B400454BEA /* LaunchScreen.storyboard */; };
+		CD41E52E22F811B400454BEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD41E52D22F811B400454BEA /* main.m */; };
+		CD41E53822F811B500454BEA /* CoolWeathreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD41E53722F811B500454BEA /* CoolWeathreTests.m */; };
+		CD41E54322F811B500454BEA /* CoolWeathreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD41E54222F811B500454BEA /* CoolWeathreUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD41E53422F811B500454BEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD41E51022F811B200454BEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD41E51722F811B200454BEA;
+			remoteInfo = CoolWeathre;
+		};
+		CD41E53F22F811B500454BEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD41E51022F811B200454BEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD41E51722F811B200454BEA;
+			remoteInfo = CoolWeathre;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD41E51822F811B200454BEA /* CoolWeathre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolWeathre.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD41E51B22F811B200454BEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD41E51C22F811B200454BEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD41E51E22F811B200454BEA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD41E51F22F811B200454BEA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD41E52222F811B200454BEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD41E52522F811B200454BEA /* CoolWeathre.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoolWeathre.xcdatamodel; sourceTree = "<group>"; };
+		CD41E52722F811B400454BEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD41E52A22F811B400454BEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD41E52C22F811B400454BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD41E52D22F811B400454BEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD41E53322F811B500454BEA /* CoolWeathreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoolWeathreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD41E53722F811B500454BEA /* CoolWeathreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoolWeathreTests.m; sourceTree = "<group>"; };
+		CD41E53922F811B500454BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD41E53E22F811B500454BEA /* CoolWeathreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoolWeathreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD41E54222F811B500454BEA /* CoolWeathreUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoolWeathreUITests.m; sourceTree = "<group>"; };
+		CD41E54422F811B500454BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD41E51522F811B200454BEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD41E53022F811B500454BEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD41E53B22F811B500454BEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD41E50F22F811B200454BEA = {
+			isa = PBXGroup;
+			children = (
+				CD41E51A22F811B200454BEA /* CoolWeathre */,
+				CD41E53622F811B500454BEA /* CoolWeathreTests */,
+				CD41E54122F811B500454BEA /* CoolWeathreUITests */,
+				CD41E51922F811B200454BEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD41E51922F811B200454BEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD41E51822F811B200454BEA /* CoolWeathre.app */,
+				CD41E53322F811B500454BEA /* CoolWeathreTests.xctest */,
+				CD41E53E22F811B500454BEA /* CoolWeathreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD41E51A22F811B200454BEA /* CoolWeathre */ = {
+			isa = PBXGroup;
+			children = (
+				CD41E51B22F811B200454BEA /* AppDelegate.h */,
+				CD41E51C22F811B200454BEA /* AppDelegate.m */,
+				CD41E51E22F811B200454BEA /* ViewController.h */,
+				CD41E51F22F811B200454BEA /* ViewController.m */,
+				CD41E52122F811B200454BEA /* Main.storyboard */,
+				CD41E52722F811B400454BEA /* Assets.xcassets */,
+				CD41E52922F811B400454BEA /* LaunchScreen.storyboard */,
+				CD41E52C22F811B400454BEA /* Info.plist */,
+				CD41E52D22F811B400454BEA /* main.m */,
+				CD41E52422F811B200454BEA /* CoolWeathre.xcdatamodeld */,
+			);
+			path = CoolWeathre;
+			sourceTree = "<group>";
+		};
+		CD41E53622F811B500454BEA /* CoolWeathreTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD41E53722F811B500454BEA /* CoolWeathreTests.m */,
+				CD41E53922F811B500454BEA /* Info.plist */,
+			);
+			path = CoolWeathreTests;
+			sourceTree = "<group>";
+		};
+		CD41E54122F811B500454BEA /* CoolWeathreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD41E54222F811B500454BEA /* CoolWeathreUITests.m */,
+				CD41E54422F811B500454BEA /* Info.plist */,
+			);
+			path = CoolWeathreUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD41E51722F811B200454BEA /* CoolWeathre */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD41E54722F811B500454BEA /* Build configuration list for PBXNativeTarget "CoolWeathre" */;
+			buildPhases = (
+				CD41E51422F811B200454BEA /* Sources */,
+				CD41E51522F811B200454BEA /* Frameworks */,
+				CD41E51622F811B200454BEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoolWeathre;
+			productName = CoolWeathre;
+			productReference = CD41E51822F811B200454BEA /* CoolWeathre.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD41E53222F811B500454BEA /* CoolWeathreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD41E54A22F811B500454BEA /* Build configuration list for PBXNativeTarget "CoolWeathreTests" */;
+			buildPhases = (
+				CD41E52F22F811B500454BEA /* Sources */,
+				CD41E53022F811B500454BEA /* Frameworks */,
+				CD41E53122F811B500454BEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD41E53522F811B500454BEA /* PBXTargetDependency */,
+			);
+			name = CoolWeathreTests;
+			productName = CoolWeathreTests;
+			productReference = CD41E53322F811B500454BEA /* CoolWeathreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD41E53D22F811B500454BEA /* CoolWeathreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD41E54D22F811B500454BEA /* Build configuration list for PBXNativeTarget "CoolWeathreUITests" */;
+			buildPhases = (
+				CD41E53A22F811B500454BEA /* Sources */,
+				CD41E53B22F811B500454BEA /* Frameworks */,
+				CD41E53C22F811B500454BEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD41E54022F811B500454BEA /* PBXTargetDependency */,
+			);
+			name = CoolWeathreUITests;
+			productName = CoolWeathreUITests;
+			productReference = CD41E53E22F811B500454BEA /* CoolWeathreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD41E51022F811B200454BEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = xuxi;
+				TargetAttributes = {
+					CD41E51722F811B200454BEA = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					CD41E53222F811B500454BEA = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = CD41E51722F811B200454BEA;
+					};
+					CD41E53D22F811B500454BEA = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = CD41E51722F811B200454BEA;
+					};
+				};
+			};
+			buildConfigurationList = CD41E51322F811B200454BEA /* Build configuration list for PBXProject "CoolWeathre" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD41E50F22F811B200454BEA;
+			productRefGroup = CD41E51922F811B200454BEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD41E51722F811B200454BEA /* CoolWeathre */,
+				CD41E53222F811B500454BEA /* CoolWeathreTests */,
+				CD41E53D22F811B500454BEA /* CoolWeathreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD41E51622F811B200454BEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD41E52B22F811B400454BEA /* LaunchScreen.storyboard in Resources */,
+				CD41E52822F811B400454BEA /* Assets.xcassets in Resources */,
+				CD41E52322F811B200454BEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD41E53122F811B500454BEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD41E53C22F811B500454BEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD41E51422F811B200454BEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD41E52022F811B200454BEA /* ViewController.m in Sources */,
+				CD41E52622F811B200454BEA /* CoolWeathre.xcdatamodeld in Sources */,
+				CD41E52E22F811B400454BEA /* main.m in Sources */,
+				CD41E51D22F811B200454BEA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD41E52F22F811B500454BEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD41E53822F811B500454BEA /* CoolWeathreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD41E53A22F811B500454BEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD41E54322F811B500454BEA /* CoolWeathreUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD41E53522F811B500454BEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD41E51722F811B200454BEA /* CoolWeathre */;
+			targetProxy = CD41E53422F811B500454BEA /* PBXContainerItemProxy */;
+		};
+		CD41E54022F811B500454BEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD41E51722F811B200454BEA /* CoolWeathre */;
+			targetProxy = CD41E53F22F811B500454BEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD41E52122F811B200454BEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD41E52222F811B200454BEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD41E52922F811B400454BEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD41E52A22F811B400454BEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD41E54522F811B500454BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD41E54622F811B500454BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD41E54822F811B500454BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38TKUQ8TN7;
+				INFOPLIST_FILE = CoolWeathre/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wellcom.operationsweb.CoolWeathre;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD41E54922F811B500454BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38TKUQ8TN7;
+				INFOPLIST_FILE = CoolWeathre/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wellcom.operationsweb.CoolWeathre;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD41E54B22F811B500454BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38TKUQ8TN7;
+				INFOPLIST_FILE = CoolWeathreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wellcom.operationsweb.CoolWeathreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoolWeathre.app/CoolWeathre";
+			};
+			name = Debug;
+		};
+		CD41E54C22F811B500454BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38TKUQ8TN7;
+				INFOPLIST_FILE = CoolWeathreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wellcom.operationsweb.CoolWeathreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoolWeathre.app/CoolWeathre";
+			};
+			name = Release;
+		};
+		CD41E54E22F811B500454BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38TKUQ8TN7;
+				INFOPLIST_FILE = CoolWeathreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wellcom.operationsweb.CoolWeathreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoolWeathre;
+			};
+			name = Debug;
+		};
+		CD41E54F22F811B500454BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38TKUQ8TN7;
+				INFOPLIST_FILE = CoolWeathreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wellcom.operationsweb.CoolWeathreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoolWeathre;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD41E51322F811B200454BEA /* Build configuration list for PBXProject "CoolWeathre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD41E54522F811B500454BEA /* Debug */,
+				CD41E54622F811B500454BEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD41E54722F811B500454BEA /* Build configuration list for PBXNativeTarget "CoolWeathre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD41E54822F811B500454BEA /* Debug */,
+				CD41E54922F811B500454BEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD41E54A22F811B500454BEA /* Build configuration list for PBXNativeTarget "CoolWeathreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD41E54B22F811B500454BEA /* Debug */,
+				CD41E54C22F811B500454BEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD41E54D22F811B500454BEA /* Build configuration list for PBXNativeTarget "CoolWeathreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD41E54E22F811B500454BEA /* Debug */,
+				CD41E54F22F811B500454BEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CD41E52422F811B200454BEA /* CoolWeathre.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CD41E52522F811B200454BEA /* CoolWeathre.xcdatamodel */,
+			);
+			currentVersion = CD41E52522F811B200454BEA /* CoolWeathre.xcdatamodel */;
+			path = CoolWeathre.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CD41E51022F811B200454BEA /* Project object */;
+}
